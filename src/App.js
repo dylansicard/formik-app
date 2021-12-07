@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import Form from './Form';
 // TODO: import useFormik from formik library
 
 function App() {
@@ -6,10 +7,7 @@ function App() {
 
   return (
     <div>
-      <p>
-        The app is ready! You can proceed with the task instructions. TODO:
-        build you form here.
-      </p>
+      <Form />
     </div>
   );
 }
